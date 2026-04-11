@@ -18,6 +18,13 @@ void ARobotVillager::BeginPlay()
 	
 }
 
+void ARobotVillager::ATest()
+{
+	UE_LOG(LogTemp, Warning, TEXT("printed the text!"));
+	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("printed the text!"));
+}
+
+
 // Called every frame
 void ARobotVillager::Tick(float DeltaTime)
 {

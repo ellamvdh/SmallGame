@@ -14,6 +14,8 @@ class SMALLGAME_API ARobotVillager : public ACharacter
 public:
 	// Sets default values for this character's properties
 	ARobotVillager();
+	UFUNCTION(BlueprintCallable, Category = "RobotVillager") 
+	void ATest();
 
 protected:
 	// Called when the game starts or when spawned
